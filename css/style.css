@@ -1,0 +1,91 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  width: 340px;
+  height: 530px;
+  border-radius: 15px;
+  position: absolute;
+  top: 55px;
+  left: 500px;
+
+}
+
+.card1 {
+  background-color: rgb(248, 249, 254);
+  transition: 0.3s;
+  width: 270px;
+  height: 70px;
+  border-radius: 15px;
+  margin: 20px 33px;
+  text-align: left;
+
+}
+
+.img {
+  border-radius: 15px 15px 0px 0px;
+  width: 340px;
+  height: 175px;
+
+}
+
+.imagem-music {
+  float: left;
+  padding: 15px;
+  width: 30px;
+
+}
+
+.texto b, label {
+  font-size: 14px;
+}
+
+.texto {
+  float: inline-start;
+  padding: 15px;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card b, label {
+  padding: 2px 16px;
+
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 42, 225);
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border: none;
+
+
+}
+
+.button:hover {
+  background-color: rgb(114, 103, 236);
+  cursor: pointer;
+
+}
+
+.change {
+  text-align: right;
+  margin: -49px 5px;
+  cursor: pointer;
+
+}
+
+h5 {
+  cursor: pointer;
+}
